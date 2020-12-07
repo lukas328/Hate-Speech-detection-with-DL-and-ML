@@ -175,7 +175,7 @@ model.evaluate(xtest, ytest)
 model.save("/content/drive/My Drive/Ki Hausarbeit")
 
 
-#The following code help to analyse the results 
+#The following code could help to analyse the results 
 
 y_train_pred = model.predict(xtest)
 y_train_pred = np.round(y_train_pred)
